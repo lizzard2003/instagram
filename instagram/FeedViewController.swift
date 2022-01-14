@@ -60,8 +60,9 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             }
         }
     }
-    
-    func messageInputBar( inputBar: MessageInputBar, didPressSendButtonWith text: String) {
+    func messageInputBar(_ inputBar: MessageInputBar, didPressSendButtonWith text: String) {
+  
+
         //Create the comment
         let comment = PFObject(className: "Comments")
         
