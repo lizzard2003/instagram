@@ -9,6 +9,7 @@ target 'instagram' do
 	pod 'Parse'
 	pod 'Alamofire'
 	pod 'AlamofireImage'
+	pod 'MessageInputBar'
 	
 
 
